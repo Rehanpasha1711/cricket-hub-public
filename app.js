@@ -1,0 +1,12 @@
+let players=[],rankings={},products=[];
+const $=id=>document.getElementById(id);
+async function init(){[players,rankings,products]=await Promise.all([fetch("/api/players").then(r=>r.json()),fetch("/api/rankings").then(r=>r.json()),fetch("/api/products").then(r=>r.json())]);showPlayers(players);showProducts(products);showRanks("T20I")}
+function showPlayers(list){$("playersGrid").innerHTML=list.map(p=>`<article class="card"><img src="${p.image}"><div class="body"><h3>${p.name}</h3><span class="badge">${p.role}</span><p>🌍 ${p.country}</p><button class="view" onclick="profile(${p.id})">View Profile</button></div></article>`).join("")||"<p>No player found.</p>"}
+$("search").oninput=e=>{let q=e.target.value.toLowerCase();showPlayers(players.filter(p=>(p.name+" "+p.country+" "+p.role).toLowerCase().includes(q)))}
+function profile(id){let p=players.find(x=>x.id===id);alert(`${p.name}\n${p.country} • ${p.role}\nMatches: ${p.stats.matches}\nRuns: ${p.stats.runs}\nAverage: ${p.stats.average}\nWickets: ${p.stats.wickets}`)}
+function rows(a){return a.map((x,i)=>`<div class="row"><span class="num">${i+1}</span><span class="name"><b>${x[0]}</b><br><small>${x[1]}</small></span><span class="points">${x[2]}</span></div>`).join("")}
+function showRanks(f){let r=rankings[f];$("bat").innerHTML=rows(r.batting);$("bowl").innerHTML=rows(r.bowling);$("all").innerHTML=rows(r.allRounders);$("team").innerHTML=rows(r.teams)}
+document.querySelectorAll(".tabs button").forEach(b=>b.onclick=()=>{document.querySelectorAll(".tabs button").forEach(x=>x.classList.remove("active"));b.classList.add("active");showRanks(b.dataset.f)})
+function showProducts(list){$("products").innerHTML=list.map(p=>`<article class="product"><img src="${p.image}"><div class="body"><span class="badge">${p.category}</span><h3>${p.name}</h3><p>${p.brand}</p><div class="price">₹${p.price.toLocaleString("en-IN")}</div><a class="buy" href="${p.url}" target="_blank" rel="noopener">Open Amazon / Seller ↗</a></div></article>`).join("")}
+document.querySelectorAll(".filters button").forEach(b=>b.onclick=()=>{document.querySelectorAll(".filters button").forEach(x=>x.classList.remove("active"));b.classList.add("active");let c=b.dataset.c;showProducts(c==="all"?products:products.filter(p=>p.category===c))})
+init().catch(()=>{$("playersGrid").innerHTML="<p>Start the backend with npm start.</p>"})

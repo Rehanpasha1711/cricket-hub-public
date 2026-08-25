@@ -1,0 +1,332 @@
+{
+  "T20I": {
+    "batting": [
+      [
+        "Virat Kohli",
+        "India",
+        899
+      ],
+      [
+        "Babar Azam",
+        "Pakistan",
+        871
+      ],
+      [
+        "Joe Root",
+        "England",
+        846
+      ],
+      [
+        "Shubman Gill",
+        "India",
+        835
+      ],
+      [
+        "Travis Head",
+        "Australia",
+        810
+      ]
+    ],
+    "bowling": [
+      [
+        "Jasprit Bumrah",
+        "India",
+        907
+      ],
+      [
+        "Rashid Khan",
+        "Afghanistan",
+        866
+      ],
+      [
+        "Pat Cummins",
+        "Australia",
+        855
+      ],
+      [
+        "Shaheen Afridi",
+        "Pakistan",
+        850
+      ],
+      [
+        "Kuldeep Yadav",
+        "India",
+        835
+      ]
+    ],
+    "allRounders": [
+      [
+        "Hardik Pandya",
+        "India",
+        296
+      ],
+      [
+        "Ben Stokes",
+        "England",
+        282
+      ],
+      [
+        "Shakib Al Hasan",
+        "Bangladesh",
+        275
+      ],
+      [
+        "Ravindra Jadeja",
+        "India",
+        268
+      ],
+      [
+        "Mohammad Nabi",
+        "Afghanistan",
+        260
+      ]
+    ],
+    "teams": [
+      [
+        "India",
+        "ICC",
+        124
+      ],
+      [
+        "Australia",
+        "ICC",
+        118
+      ],
+      [
+        "England",
+        "ICC",
+        110
+      ],
+      [
+        "South Africa",
+        "ICC",
+        106
+      ],
+      [
+        "New Zealand",
+        "ICC",
+        101
+      ]
+    ]
+  },
+  "ODI": {
+    "batting": [
+      [
+        "Virat Kohli",
+        "India",
+        899
+      ],
+      [
+        "Babar Azam",
+        "Pakistan",
+        871
+      ],
+      [
+        "Joe Root",
+        "England",
+        846
+      ],
+      [
+        "Shubman Gill",
+        "India",
+        835
+      ],
+      [
+        "Travis Head",
+        "Australia",
+        810
+      ]
+    ],
+    "bowling": [
+      [
+        "Jasprit Bumrah",
+        "India",
+        907
+      ],
+      [
+        "Rashid Khan",
+        "Afghanistan",
+        866
+      ],
+      [
+        "Pat Cummins",
+        "Australia",
+        855
+      ],
+      [
+        "Shaheen Afridi",
+        "Pakistan",
+        850
+      ],
+      [
+        "Kuldeep Yadav",
+        "India",
+        835
+      ]
+    ],
+    "allRounders": [
+      [
+        "Hardik Pandya",
+        "India",
+        296
+      ],
+      [
+        "Ben Stokes",
+        "England",
+        282
+      ],
+      [
+        "Shakib Al Hasan",
+        "Bangladesh",
+        275
+      ],
+      [
+        "Ravindra Jadeja",
+        "India",
+        268
+      ],
+      [
+        "Mohammad Nabi",
+        "Afghanistan",
+        260
+      ]
+    ],
+    "teams": [
+      [
+        "India",
+        "ICC",
+        124
+      ],
+      [
+        "Australia",
+        "ICC",
+        118
+      ],
+      [
+        "England",
+        "ICC",
+        110
+      ],
+      [
+        "South Africa",
+        "ICC",
+        106
+      ],
+      [
+        "New Zealand",
+        "ICC",
+        101
+      ]
+    ]
+  },
+  "Test": {
+    "batting": [
+      [
+        "Virat Kohli",
+        "India",
+        899
+      ],
+      [
+        "Babar Azam",
+        "Pakistan",
+        871
+      ],
+      [
+        "Joe Root",
+        "England",
+        846
+      ],
+      [
+        "Shubman Gill",
+        "India",
+        835
+      ],
+      [
+        "Travis Head",
+        "Australia",
+        810
+      ]
+    ],
+    "bowling": [
+      [
+        "Jasprit Bumrah",
+        "India",
+        907
+      ],
+      [
+        "Rashid Khan",
+        "Afghanistan",
+        866
+      ],
+      [
+        "Pat Cummins",
+        "Australia",
+        855
+      ],
+      [
+        "Shaheen Afridi",
+        "Pakistan",
+        850
+      ],
+      [
+        "Kuldeep Yadav",
+        "India",
+        835
+      ]
+    ],
+    "allRounders": [
+      [
+        "Hardik Pandya",
+        "India",
+        296
+      ],
+      [
+        "Ben Stokes",
+        "England",
+        282
+      ],
+      [
+        "Shakib Al Hasan",
+        "Bangladesh",
+        275
+      ],
+      [
+        "Ravindra Jadeja",
+        "India",
+        268
+      ],
+      [
+        "Mohammad Nabi",
+        "Afghanistan",
+        260
+      ]
+    ],
+    "teams": [
+      [
+        "India",
+        "ICC",
+        124
+      ],
+      [
+        "Australia",
+        "ICC",
+        118
+      ],
+      [
+        "England",
+        "ICC",
+        110
+      ],
+      [
+        "South Africa",
+        "ICC",
+        106
+      ],
+      [
+        "New Zealand",
+        "ICC",
+        101
+      ]
+    ]
+  }
+}

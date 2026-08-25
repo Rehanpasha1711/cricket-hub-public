@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "name": "Virat Kohli",
+    "country": "India",
+    "role": "Batter",
+    "image": "https://placehold.co/700x500?text=Virat+Kohli",
+    "stats": {
+      "matches": 500,
+      "runs": 26000,
+      "average": 54.2,
+      "wickets": 4
+    }
+  },
+  {
+    "id": 2,
+    "name": "Jasprit Bumrah",
+    "country": "India",
+    "role": "Bowler",
+    "image": "https://placehold.co/700x500?text=Jasprit+Bumrah",
+    "stats": {
+      "matches": 400,
+      "runs": 1500,
+      "average": 12.5,
+      "wickets": 500
+    }
+  },
+  {
+    "id": 3,
+    "name": "Ben Stokes",
+    "country": "England",
+    "role": "All-rounder",
+    "image": "https://placehold.co/700x500?text=Ben+Stokes",
+    "stats": {
+      "matches": 300,
+      "runs": 12000,
+      "average": 38.5,
+      "wickets": 300
+    }
+  },
+  {
+    "id": 4,
+    "name": "Rishabh Pant",
+    "country": "India",
+    "role": "Wicketkeeper",
+    "image": "https://placehold.co/700x500?text=Rishabh+Pant",
+    "stats": {
+      "matches": 300,
+      "runs": 9000,
+      "average": 40.1,
+      "wickets": 0
+    }
+  },
+  {
+    "id": 5,
+    "name": "Babar Azam",
+    "country": "Pakistan",
+    "role": "Batter",
+    "image": "https://placehold.co/700x500?text=Babar+Azam",
+    "stats": {
+      "matches": 350,
+      "runs": 14000,
+      "average": 48.7,
+      "wickets": 0
+    }
+  },
+  {
+    "id": 6,
+    "name": "Pat Cummins",
+    "country": "Australia",
+    "role": "Bowler",
+    "image": "https://placehold.co/700x500?text=Pat+Cummins",
+    "stats": {
+      "matches": 350,
+      "runs": 3000,
+      "average": 18.2,
+      "wickets": 450
+    }
+  },
+  {
+    "id": 7,
+    "name": "Rohit Sharma",
+    "country": "India",
+    "role": "Batter",
+    "image": "https://placehold.co/700x500?text=Rohit+Sharma",
+    "stats": {
+      "matches": 480,
+      "runs": 26000,
+      "average": 44.9,
+      "wickets": 8
+    }
+  },
+  {
+    "id": 8,
+    "name": "Shakib Al Hasan",
+    "country": "Bangladesh",
+    "role": "All-rounder",
+    "image": "https://placehold.co/700x500?text=Shakib+Al+Hasan",
+    "stats": {
+      "matches": 450,
+      "runs": 19000,
+      "average": 37.2,
+      "wickets": 700
+    }
+  }
+]

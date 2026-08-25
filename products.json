@@ -1,0 +1,42 @@
+[
+  {
+    "category": "Bat",
+    "name": "Premium English Willow Cricket Bat",
+    "brand": "SS",
+    "price": 129999,
+    "image": "https://placehold.co/700x500?text=Premium+Bat",
+    "url": "https://www.amazon.in/s?k=premium+english+willow+cricket+bat"
+  },
+  {
+    "category": "Bat",
+    "name": "Limited Edition Players Bat",
+    "brand": "SG",
+    "price": 149999,
+    "image": "https://placehold.co/700x500?text=Players+Bat",
+    "url": "https://www.amazon.in/s?k=SG+premium+cricket+bat"
+  },
+  {
+    "category": "Bowling",
+    "name": "Professional Fast Bowling Kit",
+    "brand": "DSC",
+    "price": 109999,
+    "image": "https://placehold.co/700x500?text=Bowling+Kit",
+    "url": "https://www.amazon.in/s?k=professional+cricket+bowling+kit"
+  },
+  {
+    "category": "Cricket Kit",
+    "name": "Premium Complete Cricket Kit",
+    "brand": "MRF",
+    "price": 119999,
+    "image": "https://placehold.co/700x500?text=Cricket+Kit",
+    "url": "https://www.amazon.in/s?k=premium+cricket+kit"
+  },
+  {
+    "category": "Bat",
+    "name": "Professional Grade Willow Bat",
+    "brand": "GM",
+    "price": 199999,
+    "image": "https://placehold.co/700x500?text=GM+Bat",
+    "url": "https://www.amazon.in/s?k=GM+professional+cricket+bat"
+  }
+]
